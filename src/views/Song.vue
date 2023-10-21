@@ -9,6 +9,7 @@
       <!-- Play/Pause Button -->
       <button
         type="button"
+        id="play-btn"
         @click.prevent="!current_song.modified_name ? newSong(song) : toggleAudio()"
         class="z-50 h-24 w-24 text-3xl bg-white text-black rounded-full focus:outline-none"
       >
